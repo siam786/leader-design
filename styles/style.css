@@ -168,10 +168,28 @@
   }
 
   @media (max-width:688px) {
-    .top-player {
-        
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #562eff;
-    }
-      
+
+  .container {
+    width: 100%;
+}
+
+.blog-area,.courses-list,.top-player {
+    grid-template-columns: 1fr;
+}
+
+.single-blog {
+    flex-direction: column;
+}
+
+.single-blog img, .course-thumb img {
+    width: 100%;
+}
+
+  }
+
+  @media (min-width:688px) and (max-width: 992px) {
+
+    .container {
+        width: 100%;
+    }  
   }
