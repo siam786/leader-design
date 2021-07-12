@@ -5,6 +5,50 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #F3F1FF;
+   
 }
 /* main style end */
+
+/* --------------
+top player section start
+--------- */
+.top-area{
+    background-color: #fff;
+    width: 870px;
+    padding: 33px;
+}
+.top-area h2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color:#562EFF;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px;
+}
+.single-player{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.single-player p{
+    font
+}
+.single-player img{
+    width: 56px;
+    height: 56px;
+}
+
+/* top player section end */
