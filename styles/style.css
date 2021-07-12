@@ -115,6 +115,10 @@
     font-weight: normal;
     color: #1e1e1e;
   }
+
+  .blog-info p {
+    padding-top: 20px;
+}
   
   .rating {
       display: flex;
