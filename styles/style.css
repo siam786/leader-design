@@ -1,111 +1,177 @@
 /* main style start */
 /* main style end */
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-}
-body{
-    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 27px;
     font-weight: 500;
-}
-main {
+  }
+  main {
     display: flex;
     justify-content: center;
-    background-color: #F3F1FF;
+    background-color: #f3f1ff;
     flex-direction: column;
     align-items: center;
-}
-
-section {
-    margin:26px 0;
-}
-
-/* main style end */
-
-/* --------------
-top player section start
---------- */
-.container{
+  }
+  
+  section {
+    margin: 26px 0;
+  }
+  
+  /* main style end */
+  
+  /* --------------
+  top player section start
+  --------- */
+  .container {
     width: 870px;
     padding: 33px;
     border-radius: 5px;
     background-color: #fff;
-
-}
-.top-area h2{
+  }
+  .top-area h2 {
     font-size: 24px;
     line-height: 36px;
     font-weight: 500;
-    color:#562EFF;
+    color: #562eff;
     text-transform: capitalize;
     padding-bottom: 40px;
-}
-.top-player{
+  }
+  .top-player {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 29px;
-
-}
-.single-player{
+  }
+  .single-player {
     display: flex;
     align-items: center;
     gap: 16px;
-}
-
-.single-player img{
+  }
+  
+  .single-player img {
     width: 56px;
     height: 56px;
-}
-
-/* top player section end */
-
-/* -------------
- blog area start
----------- */
-.line-block {
-    border: 1px solid #D1D1D1;
+  }
+  
+  /* top player section end */
+  
+  /* -------------
+   blog area start
+  ---------- */
+  .line-block {
+    border: 1px solid #d1d1d1;
     margin: 30px 0;
-}
-.single-blog {
+  }
+  .single-blog {
     display: flex;
     gap: 16px;
     align-items: center;
-}
-.single-blog img,.course-thumb img{
+  }
+  .single-blog img,
+  .course-thumb img {
     width: 200px;
-}
-
-.blog-area {
+  }
+  
+  .blog-area {
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 26px;
-}
-
-.blog-info h3 {
+  }
+  
+  .blog-info h3 {
     font-size: 17px;
     line-height: 26px;
-}
-
-.blog-info p {
+  }
+  
+  .blog-info p {
     font-size: 16px;
-    color: #562EFF;
+    color: #562eff;
     line-height: 24px;
-}
-
-.blog-info span {
-    color: #9F9F9F;
-}
-/* blog area end */
-/* course area start */
-
-.courses-list {
-    display: flex;
+  }
+  
+  .blog-info span {
+    color: #9f9f9f;
+  }
+  /* blog area end */
+  /* course area start */
+  
+  .courses-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+  
+  .author-info {max-width: 210px;}
+  /* course area end */
+  
+  .course-info h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+    color: #1e1e1e;
+  }
+  
+  .rating {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .hour {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3px;
+      background: #FFE4E8;
+      border-radius: 14px;
+      padding: 5px 4px;
+  }
+  
+  
+  .rating-icon .fas {
+      color: #FFC014;
+      font-size: 12px;
+  }
+  
+  .course-info p {
+      font-size: 12px;
+      color: #ED6B4F;
+      font-family: 'Roboto',sans-serif;
+  }
+  
+  .score-table p {
+      font-size: 14px;
+      color: #A2A2A2;
+      line-height: 22px;
+  }
+  
+  .hour-icon .far {
+      font-size: 16px;
+      color: #FF4A60;
+  }
+  
+  .time {font-family: 'Open Sans',sans-serif;font-size: 14px;color: #FF4A60;}
+  
+  .single-course {
+      border-radius: 13px;
+      padding: 13px;
+      box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000D;
+  }
 
-.author-info {
-    display: flex;
-}
-/* course area end */
+  .rating-icon .gray{
+     color: #A2A2A2;
+  }
+
+  @media (max-width:688px) {
+    .top-player {
+        
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #562eff;
+    }
+      
+  }
