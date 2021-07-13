@@ -27,6 +27,11 @@
   /* --------------
   top player section start
   --------- */
+  #header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
   .container {
     width: 870px;
     padding: 33px;
@@ -225,6 +230,8 @@
 }
 
   }
+
+  /* media query */
 
   @media (min-width:688px) and (max-width: 992px) {
 
